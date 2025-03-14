@@ -12,6 +12,5 @@ add_product(kamala_order, product_1)
 add_product(kamala_order, product_2)
 add_product(kamala_order, product_3)
 
-print(f"The order total for {kamala_order['customer_name']} is " +
-    f"{calculate_total(kamala_order)}")
+print(f"The order total for {kamala_order['customer_name']} is {calculate_total(kamala_order)}")
 
